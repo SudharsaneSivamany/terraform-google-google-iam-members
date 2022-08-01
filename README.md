@@ -18,13 +18,13 @@ module "members" {
 
 Input Required
 
-project = string
+    project = string
 
-roles   = list(string)
+    roles   = list(string)
 
-members = list(string)
+    members = list(string)
 
 Output
 
-roles  = contains member binded with roles in project
+    roles  = contains member binded with roles in project
 
